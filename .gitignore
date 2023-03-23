@@ -1,0 +1,25 @@
+# Compiled class file #
+*.class
+
+# Log file #
+*.log
+
+# Package Files #
+*.jar
+*.zip
+*.rar
+
+# Virtual machine crash logs #
+hs_err_pid*
+replay_pid*
+
+# Ignored Files #
+*.xml
+*.mf
+*.properties
+
+# Ignored Directories #
+build/
+lib/
+nbproject/
+test/
