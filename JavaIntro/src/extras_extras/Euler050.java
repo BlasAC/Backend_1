@@ -8,7 +8,7 @@ package extras_extras;
 
 import java.util.Vector;
 
-public class Consecutives_prime_sum {
+public class Euler050 {
 	
 	static final int LIMIT = 1000000;
 

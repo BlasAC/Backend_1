@@ -23,7 +23,8 @@ public class Person {
 	}
 
 	/*
-		Continuaremos con nuestra clase Persona y vamos a primero crear los getter y setter y después invocarlos desde el Main con alguno de los objetos que instanciaste.
+		Continuaremos con nuestra clase Persona y vamos a primero crear los getter y setter y después invocarlos desde
+		el Main con alguno de los objetos que instanciaste.
 	*/
 	public int getDni() {
 		return dni;
@@ -47,5 +48,10 @@ public class Person {
 
 	public void setSurname(String surname) {
 		this.surname = surname;
+	}
+
+	@Override
+	public String toString() {
+		return "Person{" + "dni=" + dni + ", forename=" + forename + ", surname=" + surname + '}';
 	}
 }

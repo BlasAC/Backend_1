@@ -1,4 +1,4 @@
-package guide7.exercises.entities;
+package guide7.extras.entities;
 
 /*
     @author Blas "MaLeVo" <https://github.com/BlasAC>
@@ -36,5 +36,10 @@ public class Song {
 
 	public void setAuthor(String author) {
 		this.author = author;
+	}
+
+	@Override
+	public String toString() {
+		return "Song{" + "title=" + title + ", author=" + author + '}';
 	}
 }

@@ -78,5 +78,10 @@ public class Operation {
 
 	public void setNumber2(double number2) {
 		this.number2 = number2;
-	}	
+	}
+
+	@Override
+	public String toString() {
+		return "Operation{" + "number1=" + number1 + ", number2=" + number2 + '}';
+	}
 }

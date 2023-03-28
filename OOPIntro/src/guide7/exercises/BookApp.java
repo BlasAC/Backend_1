@@ -14,9 +14,11 @@ public class BookApp {
 	public static void main(String[] args) {
 		
 		Book book1 = Book.createBook();
-		Book book2 = Book.createBook();
+		Book book2 = new Book();
 		
 		book1.showBookData();
+		System.out.print(book1);
 		book2.showBookData();
+		System.out.print(book2);
 	}
 }

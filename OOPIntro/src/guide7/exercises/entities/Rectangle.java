@@ -69,4 +69,9 @@ public class Rectangle {
 	public void setHeight(int height) {
 		this.height = height;
 	}
+
+	@Override
+	public String toString() {
+		return "Rectangle{" + "base=" + base + ", height=" + height + '}';
+	}
 }

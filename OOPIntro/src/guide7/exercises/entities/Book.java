@@ -34,7 +34,7 @@ public class Book {
 		
 		return new Book(isbn, title, author, pageCount);
 	}
-	
+
 	public void showBookData() {
 		System.out.printf("\nISBN: %d\n"
 				+ "Title: %-15s\n"
@@ -81,5 +81,10 @@ public class Book {
 
 	public void setPageCount(int pageCount) {
 		this.pageCount = pageCount;
+	}
+
+	@Override
+	public String toString() {
+		return "Book{" + "isbn=" + isbn + ", title=" + title + ", author=" + author + ", pageCount=" + pageCount + '}';
 	}
 }

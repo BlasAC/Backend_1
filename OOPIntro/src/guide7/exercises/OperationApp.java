@@ -16,5 +16,9 @@ package guide7.exercises;
 	el método devuelve 0 y se le informa al usuario el error se le informa al usuario. Si no, se hace la división y se devuelve el resultado al main.
 */
 public class OperationApp {
+	
 	//Este ejercicio no pide que se realice ninguna tarea en el main.
+	public static void main(String[] args) {
+		System.out.println("Ejecutando " + OperationApp.class);
+	}
 }

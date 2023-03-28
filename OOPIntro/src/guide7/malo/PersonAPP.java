@@ -18,6 +18,6 @@ public class PersonAPP {
 		
 		System.out.println("Datos de los objetos instanciados:");
 		System.out.printf("Nombre(s): %-15s\nApellido(s): %-15s\nDNI: %d\n\n", firstPerson.getForename(), firstPerson.getSurname(), firstPerson.getDni());
-		System.out.printf("Nombre(s): %-15s\nApellido(s): %-15s\nDNI: %d\n\n", secondPerson.getForename(), secondPerson.getSurname(), secondPerson.getDni());
+		System.out.println(secondPerson);
 	}
 }
