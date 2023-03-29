@@ -1,7 +1,7 @@
 #### Fullstack - EGG
 <a name="readme-top"></a>
 <img src="https://user-images.githubusercontent.com/47120385/228570599-44a64b73-2eb9-423e-8396-9f2c49525dde.png" align="right" width="200px"/>
-# __Repositorio de la etapa _Backend con Java 1___
+# ___Backend con Java 1___
 <h3>Bienvenidos/as!</h3>
 <p>
 	En este repositorio podrán encontrar todos los ejercicios (*.java) de la etapa Backend 1. En cada sección habrá una breve descripción de cada ejercicio, de los temas tratados en la guía correspondiente y, en caso de ser necesario, se explicará cómo están organizados los archivos.
@@ -34,23 +34,23 @@
 ## Guías
 
 ### Git + GitHub
-- [Guía 01: Git y GitHub 1]()
+- [Guía 01: Git y GitHub 1](https://github.com/BlasAC/Backend_1/tree/master/Git%20%2B%20GitHub/guide01)
 	> <p>Instalación de Git, signup en GitHub, configuración y primeros comandos</p>
-- [Guía 06: Git y GitHub 2]()
+- [Guía 06: Git y GitHub 2](https://github.com/BlasAC/Backend_1/tree/master/Git%20%2B%20GitHub/guide06)
 	> <p>Manejo de ramas (branches)</p>
 
 ### Java Intro
-- [Guía 02: Introducción](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide2)
+- [Guía 02: Introducción](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide02)
 	> <p>Instalación de herramientas necesarias, creación de proyectos e introducción a la sintaxis de Java</p>
-- [Guía 03: Estructuras de control](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide3)
+- [Guía 03: Estructuras de control](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide03)
 	> <p>Condicionales (if, if - else, if - else if, switch) y bucles (for, while, do while)</p>
-- [Guía 04: Subprogramas](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide4)
+- [Guía 04: Subprogramas](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide04)
 	> <p>Métodos (nombre POO de las funciones) de clase: declaración e implementación, tipos de retorno, lista de parámetros, llamados, etc.</p>
-- [Guía 05: Arreglos](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide5)
+- [Guía 05: Arreglos](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide05)
 	> <p>Vectores y matrices</p>
 
 ### POO Intro
-- [Guía 07: Programación Orientada a Objetos](https://github.com/BlasAC/Backend_1/tree/master/OOPIntro/src/guide7)
+- [Guía 07: Programación Orientada a Objetos](https://github.com/BlasAC/Backend_1/tree/master/OOPIntro/src/guide07)
 	> <p>Introducción al paradigma, elementos de una clase, constructores, getters y setters y encapsulamiento.</p>
 
 <p align="right">(<a href="#readme-top">Subir</a>)</p>
