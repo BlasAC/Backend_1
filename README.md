@@ -6,6 +6,9 @@
 <p>
 	En este repositorio podrán encontrar todos los ejercicios (*.java) de la etapa Backend 1. En cada sección habrá una breve descripción de cada ejercicio, de los temas tratados en la guía correspondiente y, en caso de ser necesario, se explicará cómo están organizados los archivos.
 </p>
+<p>
+	En las carpetas correspondientes a cada guía estará disponible el material y links a los videos correspondientes.
+</p>
 <br>
 
 ## Índice
@@ -13,8 +16,9 @@
 	<li>
 		<a href="#guías">Guías</a>
 		<ul>
-		  <li><a href="#java-intro">Java Intro</a></li>
-		  <li><a href="#poo-intro">POO Intro</a></li>
+			<li><a href="#git--github">Git + GitHub</a></li>
+		  	<li><a href="#java-intro">Java Intro</a></li>
+		  	<li><a href="#poo-intro">POO Intro</a></li>
 		</ul>
 	</li>
 	<li>
@@ -29,14 +33,25 @@
 
 ## Guías
 
-#### [Java Intro](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src)
-- [Guía 2: Introducción](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide2)
-- [Guía 3: Estructuras de control](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide3)
-- [Guía 4: Subprogramas](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide4)
-- [Guía 5: Arreglos](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide5)
+### Git + GitHub
+- [Guía 01: Git y GitHub 1]()
+	- <p>Instalación de Git, signup en GitHub, configuración y primeros comandos</p>
+- [Guía 06: Git y GitHub 2]()
+	- <p>Manejo de ramas (branches)</p>
 
-#### [POO Intro](https://github.com/BlasAC/Backend_1/tree/master/OOPIntro/src)
-- [Guía 7: Programación Orientada a Objetos](https://github.com/BlasAC/Backend_1/tree/master/OOPIntro/src/guide7)
+### Java Intro
+- [Guía 02: Introducción](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide2)
+	- <p>Instalación de herramientas necesarias, creación de proyectos e introducción a la sintaxis de Java</p>
+- [Guía 03: Estructuras de control](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide3)
+	- <p>Condicionales (if, if - else, if - else if, switch) y bucles (for, while, do while)</p>
+- [Guía 04: Subprogramas](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide4)
+	- <p>Métodos (nombre POO de las funciones) de clase: declaración e implementación, tipos de retorno, lista de parámetros, llamados, etc.</p>
+- [Guía 05: Arreglos](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide5)
+	- <p>Vectores y matrices</p>
+
+### POO Intro
+- [Guía 07: Programación Orientada a Objetos](https://github.com/BlasAC/Backend_1/tree/master/OOPIntro/src/guide7)
+	- <p>Introducción al paradigma, elementos de una clase, constructores, getters y setters y encapsulamiento.</p>
 
 <p align="right">(<a href="#readme-top">Subir</a>)</p>
 
@@ -64,7 +79,3 @@
 <p align="right">(<a href="#readme-top">Subir</a>)</p>
 
 #### WIP
-
-<!--
-A partir de la guía 7, donde se empieza a ver el paradigma de Programación Orientada a Objetos, los ejercicios ya no serán un único archivo y estos estarán idenfiticados de acuerdo a las clases que corresponda. Por ejemplo: si el ejercicio pide que se cree la clase Libro, habrá un archivo llamado Book.java, donde estarán los atributos y comportamientos de la clase, y uno llamado BookApp.java, donde estará el método main().
--->
