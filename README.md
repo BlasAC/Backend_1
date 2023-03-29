@@ -4,25 +4,25 @@
 
 <h3>Bienvenidos/as!</h3>
 <p>
-  En este repositorio podrán encontrar todos los ejercicios (*.java) de la etapa Backend 1. En cada sección habrá una breve descripción de cada ejercicio, de los temas tratados en la guía correspondiente y, en caso de ser necesario, se explicará cómo están organizados los archivos.
+	En este repositorio podrán encontrar todos los ejercicios (*.java) de la etapa Backend 1. En cada sección habrá una breve descripción de cada ejercicio, de los temas tratados en la guía correspondiente y, en caso de ser necesario, se explicará cómo están organizados los archivos.
 </p>
 <br>
 
 ## Índice
 <ul>
-  <li>
-    <a href="#guías">Guías</a>
-    <ul>
-      <li><a href="#java-intro">Java Intro</a></li>
-      <li><a href="#poo-intro">POO Intro</a></li>
-    </ul>
-  </li>
-  <li>
-    <a href="#clonar">Clonar</a>
-  </li>
-  <li>
-    <a href="#java-jdk--netbeans-82">Descargas</a>
-  </li>
+	<li>
+		<a href="#guías">Guías</a>
+		<ul>
+		  <li><a href="#java-intro">Java Intro</a></li>
+		  <li><a href="#poo-intro">POO Intro</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#clonar">Clonar</a>
+	</li>
+	<li>
+		<a href="#java-jdk--netbeans-82">Descargas</a>
+	</li>
 </ul>
 
 <p align="right">(<a href="#readme-top">Subir</a>)</p>
