@@ -1,4 +1,4 @@
-package guide07.extras.entities;
+package guide07.extras.extras01.entities;
 
 /*
     @author Blas "MaLeVo" <https://github.com/BlasAC>

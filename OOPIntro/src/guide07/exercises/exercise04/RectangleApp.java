@@ -1,6 +1,6 @@
-package guide07.exercises;
+package guide07.exercises.exercise04;
 
-import guide07.exercises.entities.Rectangle;
+import guide07.exercises.exercise04.entities.Rectangle;
 
 /*
     @author Blas "MaLeVo" <https://github.com/BlasAC>

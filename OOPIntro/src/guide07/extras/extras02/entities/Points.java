@@ -1,4 +1,4 @@
-package guide07.extras.entities;
+package guide07.extras.extras02.entities;
 
 import java.util.Scanner;
 

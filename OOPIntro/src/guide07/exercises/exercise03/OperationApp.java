@@ -1,4 +1,4 @@
-package guide07.exercises;
+package guide07.exercises.exercise03;
 
 /*
     @author Blas "MaLeVo" <https://github.com/BlasAC>

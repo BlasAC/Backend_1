@@ -1,4 +1,4 @@
-package guide07.extras;
+package guide07.extras.extras01;
 
 /*
     @author Blas "MaLeVo" <https://github.com/BlasAC>

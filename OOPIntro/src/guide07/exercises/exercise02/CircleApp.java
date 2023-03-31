@@ -1,6 +1,6 @@
-package guide07.exercises;
+package guide07.exercises.exercise02;
 
-import guide07.exercises.entities.Circle;
+import guide07.exercises.exercise02.entities.Circle;
 
 /*
     @author Blas "MaLeVo" <https://github.com/BlasAC>

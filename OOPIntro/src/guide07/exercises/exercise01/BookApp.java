@@ -1,6 +1,6 @@
-package guide07.exercises;
+package guide07.exercises.exercise01;
 
-import guide07.exercises.entities.Book;
+import guide07.exercises.exercise01.entities.Book;
 
 /*
     @author Blas "MaLeVo" <https://github.com/BlasAC>

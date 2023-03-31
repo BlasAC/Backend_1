@@ -1,4 +1,4 @@
-package guide07.exercises.entities;
+package guide07.exercises.exercise01.entities;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
-package guide07.extras;
+package guide07.extras.extras02;
 
-import guide07.extras.entities.Points;
+import guide07.extras.extras02.entities.Points;
 
 /*
     @author Blas "MaLeVo" <https://github.com/BlasAC>

@@ -1,4 +1,4 @@
-package guide07.extras.entities;
+package guide07.extras.extras03.entities;
 
 import java.util.Random;
 import java.util.Scanner;
