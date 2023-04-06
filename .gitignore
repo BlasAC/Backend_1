@@ -13,10 +13,13 @@
 hs_err_pid*
 replay_pid*
 
-# Ignored Files #
+# Ignored File Types #
 *.xml
 *.mf
 *.properties
+
+# Ignored Files #
+README_Template.txt
 
 # Ignored Directories #
 build/
