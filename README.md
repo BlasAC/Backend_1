@@ -53,6 +53,10 @@
 - [Guía 07: Programación Orientada a Objetos](https://github.com/BlasAC/Backend_1/tree/master/OOPIntro/src/guide07)
 	> <p>Introducción al paradigma, elementos de una clase, constructores, getters y setters y encapsulamiento.</p>
 
+### Service Class
+- [Guía 08: Clases de servicio](https://github.com/BlasAC/Backend_1/tree/master/ServiceClass/src/guide08)
+	> <p>Introducción a la arquitectura en capas. Patrón GRASP y Clases de Servicio.</p>
+
 <p align="right">(<a href="#readme-top">Subir</a>)</p>
 
 ## Clonar
