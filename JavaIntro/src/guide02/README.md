@@ -15,7 +15,7 @@
 
 <br />
 
-## Manos a la obra!
+## [Manos a la obra!](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide02/malo)
 <ol>
   <li>
     Crear un proyecto de Java y definir al menos 6 variables en tu IDE de distintos tipos de datos.
@@ -36,7 +36,7 @@
 
 <p align="right">(<a href="#readme-top">Subir</a>)</p>
 
-## Ejercicios
+## [Ejercicios](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide02/exercises)
 <ol>
 	<li>
 		Escribir un programa que pida dos números enteros por teclado y calcule la suma de los dos. El programa deberá después mostrar el resultado de la suma
