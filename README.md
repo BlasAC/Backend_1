@@ -19,6 +19,7 @@
 			<li><a href="#git--github">Git + GitHub</a></li>
 		  	<li><a href="#java-intro">Java Intro</a></li>
 		  	<li><a href="#poo-intro">POO Intro</a></li>
+			<li><a href="#service-class">Service Class</a></li>
 		</ul>
 	</li>
 	<li>
