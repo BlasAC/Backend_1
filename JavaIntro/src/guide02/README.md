@@ -4,7 +4,7 @@
 
 ## [Volver al Inicio](https://github.com/BlasAC/Backend_1)
 
-# Guía 2: Introducción a Java
+# Guía 02: Introducción a Java
 
 <p>
 	Cada ejercicio está en su correspondiente archivo. Ej.: Ejercicio 1 -> Exercise01.java
