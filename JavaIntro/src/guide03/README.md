@@ -21,7 +21,7 @@
 
 <br />
 
-## Manos a la obra!
+## [Manos a la obra!](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide03/malo)
 <ol start="6">
   <li>
     Implementar un programa que le pida dos números enteros al usuario y determine si ambos o alguno de ellos es mayor a 25.
@@ -68,7 +68,7 @@
 
 <p align="right">(<a href="#readme-top">Subir</a>)</p>
 
-## Ejercicios
+## [Ejercicios](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide03/exercises)
 <ol>
 	<li>
 		Crear un programa que dado un número determine si es par o impar.
@@ -116,7 +116,7 @@
 
 <p align="right">(<a href="#readme-top">Subir</a>)</p>
 
-## Extras
+## [Extras](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide03/extras)
 
 <ol>
   <li>
