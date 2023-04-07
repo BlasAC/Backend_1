@@ -98,23 +98,23 @@
 <ol>
   <li>
     <p>
-      Vamos a realizar una clase llamada Raices, donde representaremos los valores de una ecuación de 2º grado. Tendremos los 3 coeficientes como atributos, llamémosles a, b y c. Hay que insertar estos 3 valores para construir el objeto a través de un método constructor. Luego, en RaicesServicio las operaciones que se podrán realizar son las siguientes:
+      Vamos a realizar una clase llamada Raices, donde representaremos los valores de una ecuación de 2º grado. Tendremos los 3 coeficientes como atributos, llamémosles a, b y c. Hay que insertar estos 3 valores para instanciar el objeto a través de un método constructor. Luego, en RaicesServicio las operaciones que se podrán realizar son las siguientes:
     </p>
     <ol type="a">
       <li>
         Método getDiscriminante(): devuelve el valor del discriminante (double). El discriminante tiene la siguiente fórmula: (b^2) - 4 * a * c
       </li>
       <li>
-        Método tieneRaices(): devuelve un booleano indicando si tiene dos soluciones, para que esto ocurra, el discriminante debe ser mayor o igual que 0.
+        Método tieneRaices(): devuelve un booleano indicando si tiene dos soluciones reales distintas. Para que esto ocurra, el discriminante debe ser mayor que 0.
       </li>
       <li>
-        Método tieneRaiz(): devuelve un booleano indicando si tiene una única solución, para que esto ocurra, el discriminante debe ser igual que 0.
+        Método tieneRaiz(): devuelve un booleano indicando si ambas soluciones son iguales. Para que esto ocurra, el discriminante debe ser igual que 0.
       </li>
       <li>
         Método obtenerRaices(): llama a tieneRaíces() y si devolvió́true, imprime las 2 posibles soluciones.
       </li>
       <li>
-        Método obtenerRaiz(): llama a tieneRaiz() y si devolvió́true imprime una única raíz. Es en el caso en que se tenga una única solución posible.
+        Método obtenerRaiz(): llama a tieneRaiz(). Si este retorna true imprime una única raíz. Es en el caso en que se tenga una única solución posible.
       </li>
       <li>
         Método calcular(): esté método llamará tieneRaices() y a tieneRaíz(), y mostrará por pantalla las posibles soluciones que tiene nuestra ecuación con los métodos obtenerRaices() o obtenerRaiz(), según lo que devuelvan nuestros métodos y en caso de no existir solución, se mostrará un mensaje.
@@ -137,38 +137,12 @@
         Método crearNif(): le pide al usuario el DNI y con ese DNI calcula la letra que le corresponda.
       </li>
       <li>
-        <p>
-          Método mostrar(): que nos permita mostrar el NIF (ocho dígitos, un guion y la letra en mayúscula; por ejemplo: 00395469-F). La letra correspondiente al dígito verificador se calculará a traves de un método que funciona de la siguiente manera: Para calcular la letra se toma el resto de dividir el número de DNI por 23 (el resultado debe ser un número entre 0 y 22). El método debe buscar en un array (vector) de caracteres la posición que corresponda al resto de la división para obtener la letra correspondiente. La tabla de caracteres es la siguiente:
-        </p>
-      </li>
-  </li>
+				Método mostrar(): que nos permita mostrar el NIF (ocho dígitos, un guion y la letra en mayúscula. Por ejemplo: 00395469-F). La letra correspondiente al dígito verificador se calculará a traves de un método que funciona de la siguiente manera: para calcular la letra se toma el resto de dividir el número de DNI por 23 (el resultado será ser un número entre 0 y 22). El método debe buscar en un array (vector) de caracteres la posición que corresponda al resto de la división para obtener la letra correspondiente. La tabla de caracteres es la siguiente:<br />
+        <img src="https://user-images.githubusercontent.com/47120385/230516624-ed114771-df31-433b-a1da-7f07061d8d07.jpeg">
+				<img src="https://user-images.githubusercontent.com/47120385/230516684-14106c45-e266-407b-846e-bc67e06c502a.jpeg">
+			</li>
+  	</li>
 </ol>
-
-| Posición | Letra |
-| --- | --- |
-| 0 | T |
-| 1 | R |
-| 2 | W |
-| 3 | A |
-| 4 | G |
-| 5 | M |
-| 6 | Y |
-| 7 | F |
-| 8 | P |
-| 9 | D |
-| 10 | X |
-| 11 | B |
-| 12 | N |
-| 13 | J |
-| 14 | Z |
-| 15 | S |
-| 16 | Q |
-| 17 | V |
-| 18 | H |
-| 19 | L |
-| 20 | C |
-| 21 | K |
-| 22 | E |
 
 <p align="right">(<a href="#readme-top">Subir</a>)</p>
 
