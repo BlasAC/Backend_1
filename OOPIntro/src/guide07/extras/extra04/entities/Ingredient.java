@@ -1,5 +1,7 @@
 package guide07.extras.extra04.entities;
 
+import java.util.Objects;
+
 /*
     @author Blas "MaLeVo" <https://github.com/BlasAC>
 
@@ -22,5 +24,25 @@ public class Ingredient {
 
 	public void setIngredientName(String ingredientName) {
 		this.ingredientName = ingredientName;
+	}
+
+	@Override
+	public String toString() {
+		return "Ingredient{" + "ingredientName=" + ingredientName + '}';
+	}
+
+	@Override
+	public int hashCode() {
+		int hash = 7;
+		return 59 * hash + Objects.hashCode(this.ingredientName);
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj) return true;
+		if (obj == null || getClass() != obj.getClass()) return false;
+		
+		final Ingredient other = (Ingredient) obj;
+		return this.ingredientName.equals(other.ingredientName);
 	}
 }

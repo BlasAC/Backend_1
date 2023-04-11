@@ -8,13 +8,13 @@ package guide07.extras.extra04.entities;
 	receta por nombre y para obtener la lista de recetas que se pueden
 	preparar con los ingredientes disponibles en la cocina.
 */
-class Step {
+public class Step {
 	
 	private int index;
 	private String description;
 
-	public Step(int position, String description) {
-		this.index = position;
+	public Step(int index, String description) {
+		this.index = index;
 		this.description = description;
 	}
 
@@ -32,5 +32,10 @@ class Step {
 
 	public void setDescription(String description) {
 		this.description = description;
+	}
+
+	@Override
+	public String toString() {
+		return "Step{" + "index=" + index + ", description=" + description + '}';
 	}
 }
