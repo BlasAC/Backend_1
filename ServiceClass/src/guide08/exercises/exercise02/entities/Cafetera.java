@@ -3,10 +3,8 @@ package guide08.exercises.exercise02.entities;
 /*
     @author Blas "MaLeVo" <https://github.com/BlasAC>
 	
-	Programa Nespresso. Desarrolle una clase Cafetera en el paquete
-	Entidades con los atributos capacidadMáxima (la cantidad máxima de
-	café que puede contener la cafetera) y cantidadActual (la cantidad
-	actual de café que hay en la cafetera). Agregar constructor vacío y con
+	Programa Nespresso. Desarrolle una clase Cafetera en el paquete Entidades con los atributos capacidadMáxima (la cantidad máxima de
+	café que puede contener la cafetera) y cantidadActual (la cantidad actual de café que hay en la cafetera). Agregar constructor vacío y con
 	parámetros así como setters y getters.
 */
 public class Cafetera {

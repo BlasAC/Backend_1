@@ -9,7 +9,12 @@ import guide08.exercises.exercise02.entities.Cafetera;
 */
 public class CafeteraService {
 	
-	private Cafetera cafetera = new Cafetera();
+	/*
+		A diferencia de la mayoría de ejercicios, en este caso decidimos (con mis compañeros de encuentro) que cada objeto CafeteraService
+		estaría sujeto a una única Cafetera.
+		Esto fue hecho solo para ver la diferencia entre ambas implementaciones. No creo que sea una buena práctica para una clase de servicio.
+	*/
+	private final Cafetera cafetera = new Cafetera();
 	
 	//a) Método llenarCafetera(): hace que la cantidad actual sea igual a la capacidad máxima.
 	public void llenarCafetera() {

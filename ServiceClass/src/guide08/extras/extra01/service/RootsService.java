@@ -38,6 +38,7 @@ public class RootsService {
 		return new Roots(a, b, c);
 	}
 	
+	//Estos comentarios son práctica sobre documentación (javadoc). Decidí no continuar con ellos porque saturan la pantalla con texto.
 	/**
 	 * This method calculates the discriminant of a quadratic equation ax^2 + bx + c = 0 using the following formula: (b^2) - 4ac
 	 * @param f the Roots object that contains the coefficients of the equation.
@@ -48,9 +49,9 @@ public class RootsService {
 	}
 	
 	/**
-	 * This methods evaluates the discriminant of a quadratic equation and determines whether or not it has two roots.
+	 * This methods evaluates the discriminant of a quadratic equation and determines whether or not it has two unique roots.
 	 * @param discriminant the discriminant of the equation.
-	 * @return true if the equation has two roots, or false otherwise.
+	 * @return true if the equation has two unique roots, or false otherwise.
 	 */
 	private boolean hasTwoRoots(double discriminant) {
 		return discriminant > 0;

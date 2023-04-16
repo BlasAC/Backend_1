@@ -25,7 +25,7 @@ public class PersonService {
 	}
 	
 	//b) Metodo crearPersona(): el método crear persona, le pide los valores de los atributos al usuario y después se le asignan a sus respectivos
-	//atributos para llenar el objeto Persona. Además, comprueba que el sexo introducido sea correcto, es decir, H, M o O. Si no es correcto se
+	//atributos para llenar el objeto Persona. Además, comprueba que el sexo introducido sea correcto, es decir, H, M u O. Si no es correcto se
 	//deberá mostrar un mensaje
 	public Person createPerson() {
 		

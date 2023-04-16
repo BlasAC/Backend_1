@@ -9,7 +9,7 @@ package extras_extras;
 
 	By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 */
-public class Euler02 {
+public class Euler002 {
 	
 	public static final int LIMIT = 4000000;
 	
