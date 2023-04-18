@@ -20,6 +20,7 @@
 		  	<li><a href="#java-intro">Java Intro</a></li>
 		  	<li><a href="#poo-intro">POO Intro</a></li>
 			<li><a href="#service-class">Service Class</a></li>
+			<li><a href="#utility-class">Utility Class</a></li>
 		</ul>
 	</li>
 	<li>
@@ -58,17 +59,21 @@
 - [Guía 08: Clases de servicio](https://github.com/BlasAC/Backend_1/tree/master/ServiceClass/src/guide08)
 	> <p>Introducción a la arquitectura en capas. Patrón GRASP y Clases de Servicio.</p>
 
+### Utility Class
+- [Guía 09: Clases de utilidad](https://github.com/BlasAC/Backend_1/tree/master/UtilityClass/src/guide09)
+	> <p>Utilización de clases de utilidad Arrays, Integer y Date.</p>
+
 <p align="right">(<a href="#readme-top">Subir</a>)</p>
 
 ## Clonar
 
-- Opción 1: ejecutando el comando desde una carpeta vacía
+- Ejecutando este comando desde el bash se creará, en el directorio en que estemos ubicados, una carpeta llamada "Backend_1" y dentro de la misma se descargará todo el contenido del repositorio.
 ```git
 	git clone https://github.com/BlasAC/Backend_1.git
 ```
-- Opción 2: especificando a qué carpeta enviar lo descargado
+- Alternativamente, se puede especificar un nombre para la carpeta incluyendo "nuevoNombre" luego del link
 ```git
-	git clone https://github.com/BlasAC/Backend_1.git <ruta_directorio_destino>
+	git clone https://github.com/BlasAC/Backend_1.git <nuevoNombre>
 ```
 
 <p align="right">(<a href="#readme-top">Subir</a>)</p>
