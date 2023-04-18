@@ -12,7 +12,20 @@
 <p>
 	En estos primeros pasos en el mundo Java el objetivo es familiarizarnos con el entorno de desarrollo elegido y la nueva sintaxis para la declaración de variables, escritura/lectura por consola, inicialización, etc.
 </p>
+<br />
 
+## Índice
+<ul>
+	<li>
+    <a href="#manos-a-la-obra">Manos a la obra!</a>
+  </li>
+	<li>
+    <a href="#ejercicios">Ejercicios</a>
+  </li>
+	<li>
+    <a href="#clonar">Clonar</a>
+  </li>
+</ul>
 <br />
 
 ## [Manos a la obra!](https://github.com/BlasAC/Backend_1/tree/master/JavaIntro/src/guide02/malo)
@@ -63,13 +76,13 @@
 
 ## Clonar
 
-- Opción 1: ejecutando el comando desde una carpeta vacía
+- Ejecutando este comando desde el bash se creará, en el directorio en que estemos ubicados, una carpeta llamada "Backend_1" y dentro de la misma se descargará todo el contenido del repositorio.
 ```git
 	git clone https://github.com/BlasAC/Backend_1.git
 ```
-- Opción 2: especificando a qué carpeta enviar lo descargado
+- Alternativamente, se puede especificar un nombre para la carpeta incluyendo "nuevoNombre" luego del link
 ```git
-	git clone https://github.com/BlasAC/Backend_1.git <ruta_directorio_destino>
+	git clone https://github.com/BlasAC/Backend_1.git <nuevoNombre>
 ```
 
 <p align="right">(<a href="#readme-top">Subir</a>)</p>
