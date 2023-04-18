@@ -46,7 +46,7 @@ public class PersonService {
 		int age = now.getYear() - p.getBirthDate().getYear();
 		
 		//Si el mes actual es menor que el de nacimiento, o si es el mismo pero lo que es menor es el día, se resta 1 a la edad (aún no cumplió años).
-		if (now.getMonth() < p.getBirthDate().getMonth() || (now.getMonth() == p.getBirthDate().getMonth() && now.getDate() < p.getBirthDate().getDate())) {
+		if (Integer.compare(now.getMonth(), p.getBirthDate().getMonth()) < 0 || (Integer.compare(now.getMonth(), p.getBirthDate().getMonth()) == 0 && Integer.compare(now.getDate(), p.getBirthDate().getDate()) < 0)) {
 			age--;
 		}
 		return age;
@@ -54,7 +54,8 @@ public class PersonService {
 	
 	//c) Método menorQue recibe como parámetro una Persona y una edad. Retorna true si la persona es menor que la edad consultada o false en caso contrario.
 	public static boolean isOlderThan(Person p, int age) {
-		return calculateAge(p) < age;
+		//Solo uso este tipo de comparación para darle uso a la clase Integer...
+		return Integer.compare(calculateAge(p), age) < 0;
 	}
 	
 	//d) Método mostrarPersona que muestra la información de la persona deseada.
