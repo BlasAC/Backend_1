@@ -5,7 +5,9 @@ package guide09.extras.extra01.entities;
 */
 public class SecretMonth {
 	
-	private String secretMonth;
+	public static final String[] MONTHS = new String[] {"enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"};
+	
+	private final String secretMonth;
 
 	public SecretMonth(String secretMonth) {
 		this.secretMonth = secretMonth;
@@ -13,9 +15,5 @@ public class SecretMonth {
 
 	public String getSecretMonth() {
 		return secretMonth;
-	}
-
-	public void setSecretMonth(String secretMonth) {
-		this.secretMonth = secretMonth;
 	}
 }

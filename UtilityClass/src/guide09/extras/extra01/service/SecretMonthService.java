@@ -15,9 +15,8 @@ import java.util.Scanner;
 public class SecretMonthService {
 	
 	public static SecretMonth createSecretMonth() {
-		String[] months = new String[] {"enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"};
 		Random rand = new Random();
-		return new SecretMonth(months[rand.nextInt(months.length)]);
+		return new SecretMonth(SecretMonth.MONTHS[rand.nextInt(SecretMonth.MONTHS.length)]);
 	}
 	
 	public static void guessSecretMonth(SecretMonth sm) {
@@ -27,6 +26,6 @@ public class SecretMonthService {
 		while (!scan.nextLine().equalsIgnoreCase(sm.getSecretMonth())) {
 			System.out.print("Incorrecto! Intenta nuevamente: ");
 		}
-		System.out.println("Adivinaste!");
+		System.out.println("Adivinaste! El mes secreto era " + sm.getSecretMonth().toUpperCase() + "!");
 	}
 }
