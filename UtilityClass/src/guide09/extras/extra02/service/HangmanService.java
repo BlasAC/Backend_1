@@ -2,6 +2,7 @@ package guide09.extras.extra02.service;
 
 import guide09.extras.extra02.entities.Hangman;
 import guide09.extras.extra02.entities.HangmanStages;
+import java.util.Arrays;
 import java.util.Scanner;
 
 /*
@@ -31,10 +32,7 @@ public class HangmanService {
 		
 		System.out.print("Ingrese la palabra secreta: ");
 		word = scan.next(); /*Buffer cleaning*/ scan.nextLine();
-		letters = new char[word.length()];
-		for (int i = 0; i < letters.length; i++) {
-			letters[i] = word.charAt(i);
-		}
+		letters = word.toLowerCase().toCharArray();
 		
 		return new Hangman(letters);
 	}
@@ -60,10 +58,7 @@ public class HangmanService {
 	}
 	
 	public static void showLettersFound(Hangman h) {
-		for (int i = 0; i < h.getLettersFound().length; i++) {
-			System.out.printf("[%c] ", h.getLettersFound()[i]);
-		}
-		System.out.println();
+		System.out.println(Arrays.toString(h.getLettersFound()));
 	}
 	
 	public static void replaceLetters(Hangman h, char c) {
