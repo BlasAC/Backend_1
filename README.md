@@ -4,11 +4,16 @@
 # ___Backend con Java 1___
 <h3>Bienvenidos/as!</h3>
 <p>
-	En este repositorio podrán encontrar todos los ejercicios (*.java) de la etapa Backend 1. En cada sección habrá una breve descripción de cada ejercicio, de los temas tratados en la guía correspondiente y, en caso de ser necesario, se explicará cómo están organizados los archivos.
+	En este repositorio podrán encontrar todos los ejercicios (*.java) de la etapa Backend 1.
 </p>
 <p>
-	En las carpetas correspondientes a cada guía estará disponible el material y links a los videos correspondientes.
+	En cada sección estará disponible el material, habrá una breve descripción de cada ejercicio, de los temas tratados en la guía correspondiente y, en caso de ser necesario, se explicará cómo están organizados los archivos.
 </p>
+
+<br>
+
+## Si este material te sirvió de algo, te invito a dejar una :star: y quedamos a mano! :wink:
+
 <br>
 
 ## Índice
@@ -21,6 +26,7 @@
 		  	<li><a href="#poo-intro">POO Intro</a></li>
 			<li><a href="#service-class">Service Class</a></li>
 			<li><a href="#utility-class">Utility Class</a></li>
+			<li><a href="#collections">Collections</a></li>
 		</ul>
 	</li>
 	<li>
@@ -52,16 +58,20 @@
 	> <p>Vectores y matrices</p>
 
 ### POO Intro
-- [Guía 07: Programación Orientada a Objetos](https://github.com/BlasAC/Backend_1/tree/master/OOPIntro/src/guide07)
+- [Guía 07: Programación Orientada a Objetos](https://github.com/BlasAC/Backend_1/tree/master/OOPIntro/src)
 	> <p>Introducción al paradigma, elementos de una clase, constructores, getters y setters y encapsulamiento.</p>
 
 ### Service Class
-- [Guía 08: Clases de servicio](https://github.com/BlasAC/Backend_1/tree/master/ServiceClass/src/guide08)
+- [Guía 08: Clases de servicio](https://github.com/BlasAC/Backend_1/tree/master/ServiceClass/src)
 	> <p>Introducción a la arquitectura en capas. Patrón GRASP y Clases de Servicio.</p>
 
 ### Utility Class
-- [Guía 09: Clases de utilidad](https://github.com/BlasAC/Backend_1/tree/master/UtilityClass/src/guide09)
+- [Guía 09: Clases de utilidad](https://github.com/BlasAC/Backend_1/tree/master/UtilityClass/src)
 	> <p>Utilización de clases de utilidad Arrays, Integer y Date.</p>
+
+### Collections
+- [Guía 10: Colecciones](https://github.com/BlasAC/Backend_1/tree/master/Collections/src)
+	> <p>Lists, Sets y Maps. Qué son, y cómo se usan las collecciones de Java: Java Collections Framework.</p>
 
 <p align="right">(<a href="#readme-top">Subir</a>)</p>
 
